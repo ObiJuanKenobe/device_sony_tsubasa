@@ -1,0 +1,21 @@
+on boot
+    # Panel backlight
+    chown system system /sys/class/leds/lcd-backlight_1/brightness
+    chmod 660 /sys/class/leds/lcd-backlight_1/brightness
+    chown system system /sys/class/leds/lcd-backlight_2/brightness
+    chmod 660 /sys/class/leds/lcd-backlight_2/brightness
+
+    # LED
+    chown system system /sys/class/leds/pwr-red/brightness
+    chmod 660 /sys/class/leds/pwr-red/brightness
+    chown system system /sys/class/leds/pwr-green/brightness
+    chmod 660 /sys/class/leds/pwr-green/brightness
+    chown system system /sys/class/leds/pwr-blue/brightness
+    chmod 660 /sys/class/leds/pwr-blue/brightness
+    
+    chown system system /sys/class/leds/pwr-red/trigger
+    chmod 660 /sys/class/leds/pwr-red/trigger
+    chown system system /sys/class/leds/pwr-green/trigger
+    chmod 660 /sys/class/leds/pwr-green/trigger
+    chown system system /sys/class/leds/pwr-blue/trigger
+    chmod 660 /sys/class/leds/pwr-blue/trigger
