@@ -192,8 +192,8 @@ lib/libgps.utils.so
 lib/libgsl.so
 lib/libidd.so
 lib/libidl.so
-lib/libimage-omx-common.so
 lib/libimage-jpeg-enc-omx-comp.so
+lib/libimage-omx-common.so
 lib/libkeyctrl.so
 lib/liblights-core.so
 lib/libloc_adapter.so
@@ -242,6 +242,7 @@ lib/libsc-a2xx.so
 lib/libsensor1.so
 lib/libsurfaceflinger_client.so
 lib/libsys-utils.so
+lib/libsysmon_idd.so
 lib/libta.so
 lib/libv8.so
 lib/libwifiscanner.so
