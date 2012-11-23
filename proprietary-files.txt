@@ -135,6 +135,7 @@ etc/firmware/vidcfw.elf
 etc/firmware/wcnss.b00
 etc/firmware/wcnss.b01
 etc/firmware/wcnss.b02
+etc/firmware/wcnss.b04
 etc/firmware/wcnss.b05
 etc/firmware/wcnss.flist
 etc/firmware/wcnss.mdt
