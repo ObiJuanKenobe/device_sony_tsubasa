@@ -30,3 +30,9 @@ on boot
     chmod 660 /sys/devices/i2c-10/10-0040/pattern_use_softdim
     chown system system /sys/devices/i2c-10/10-0040/dim_time
     chmod 660 /sys/devices/i2c-10/10-0040/dim_time
+
+on post-fs
+    # Touch firmware update
+    write /data/etc/touch_default_module_id 30
+    mkdir /data/pc 700 radio radio
+
